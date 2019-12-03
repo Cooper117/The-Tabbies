@@ -1,193 +1,28 @@
 body {
-margin : 0;
-padding : 0;
-font : 76% "Trebuchet MS", verdana, arial, sans-serif;
-background : #fbf6fa url(images/pink_bg.gif) repeat-y;
-background-position : 50% 0;
+  color: rgb(65, 75, 86);
+  font-family: arial;
+  margin: 0px;
 }
-#box {
-width : 762px;
-margin-right : auto;
-margin-left : auto;
-line-height : 1.8em;
-padding : 1px;
-margin-top : 0;
-position : relative;
-background : url(images/flower.jpg) no-repeat;
+div {
+  min-height: 100vh;
+  width: 100vw;
 }
-#title {
-background : inherit;
-color : #fff;
-width : 740px;
-margin : 0;
-padding : 0;
-height : 35px;
+h1 {
+  text-align: center;
 }
-#title h1 {
-background-color : inherit;
-color : rgb(0,0,0);
-letter-spacing : 5px;
-font-size : 140%;
-text-align : right;
-margin : 0 20px 0 0;
-padding-top : 10px;
-}
-#header {
-background-color : inherit;
-color : #000;
-width : 740px;
-height : 150px;
-margin : 0;
-padding : 0;
-}
-.container {
-width : 740px;
-padding-top : 10px;
-margin : 0;
-}
-#navCircle {
-margin : 0;
-padding : 0 0 20px 20px;
-}
-#navCircle li {
-margin : 0;
-padding : 0;
-display : inline;
-list-style-type : none;
-}
-#navCircle a:link, #navCircle a:visited {
-background : inherit;
-color : rgb(244,156,39;
-float : left;
-font-size : 12px;
-line-height : 12px;
-font-weight : bold;
-padding : 0 20px 15px 20px;
-text-decoration : none;
-}
-#navCircle a:link.active, #navCircle a:visited.active, #navCircle a:hover {
-background : inherit;
-color : #000;
-background : url(images/pink_menu.gif) no-repeat bottom center;
-}
-#main {
-padding : 1px;
-margin : 0;
-float : left;
-width : 542px;
-}
-#main p {
-padding : 0 20px 0 15px;
-}
-#main h1 {
-padding : 5px;
-margin : 10px 30px 0 20px;
-font-size : 110%;
-text-transform : uppercase;
-letter-spacing : 3px;
-border-top : 1px dashed rgb(244,156,39;
-border-bottom : 1px dashed rgb(244,156,39;
-background : inherit;
-color : #000;
-}
-#right-menu {
-width : 180px;
-margin : 0 0 0 550px;
-border-left : 1px solid #eee;
-padding-left : 10px;
-}
-#right-menu h1 {
-background : inherit;
-margin : 0;
-text-transform : uppercase;
-font-size : 10px;
-line-height : 1em;
-color : rgb(244,156,39;
-}
-#right-navlist {
-background-color : inherit;
-color : #333;
-width : 95%;
-line-height : 1.8em;
-margin : 15px 0 5px 10px;
-padding : 0;
-list-style-type : none;
-}
-#right-navlist a {
-display : block;
-width : 95%;
-text-decoration : none;
-background : url(images/pink_menu.gif) no-repeat right;
-background-color : inherit;
-color : #000;
-}
-#right-navlist a#current, #right-navlist a:hover {
-text-decoration : none;
-background-color : inherit;
-color : #333;
-background-image : url(images/submenua_hover.gif);
-}
-.sideheader {
-height:30px;
-color : #e6cfd9;
-background : transparent url(images/pink_side.gif) no-repeat;
-letter-spacing : 3px;
-font-size : 110%;
-text-align : center;
-text-transform : uppercase;
-margin : 0;
-padding : 3px;
-}
-.news {
-font-size : 10px;
-background-color : inherit;
-color : #666;
-}
-#footer {
-clear : both;
-background-color : inherit;
-color : #9f6984;
-padding : 0;
-border-top : 1px solid #eee;
-margin : 40px 0 0 10px;
-}
-#footer a:link, #footer a:visited {
-background-color : inherit;
-color : #9f6984;
-}
-#footer a:hover {
-border-bottom : 1px dashed #000;
-text-decoration : none;
-}
-.myborder {
-border : 1px solid #000;
-padding : 5px;
-}
-a img {
-border : none;
-}
-a:link, a:visited {
-background-color : inherit;
-color : #9C3163;
-text-decoration : none;
-}
-a:hover {
-background-color : inherit;
-text-decoration : none;
-color : #333;
-}
-div.scroll {
-overflow : auto;
-height : 7em;
-width : 160px;
-border : 1px solid #fff;
-padding : 1ex;
-background-color : #fbe9f9;
-color : #866709;
-margin : 25px 0 25px 0;
-}
-blockquote {
-font-weight : bold;
-font-style : italic;
-color : #b29b35;
-}
+h1 {
+  font-size: 10em;
+  img {
+    display: flex;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  ul {
+    list-style: none;
+    padding:0;
+    margin-bottom:10%;
+    font-size:5em;
+    display: flex;
+    justify-content: space-evenly;
+  }

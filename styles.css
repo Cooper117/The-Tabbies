@@ -1,5 +1,5 @@
 body {
-  color: rgb(65, 75, 86);
+  color: rgb(0,0,0);
   font-family: arial;
   margin: 0px;
 }
@@ -25,4 +25,29 @@ h1 {
     font-size:5em;
     display: flex;
     justify-content: space-evenly;
+  }
+  li#lower {
+    margin-top: 7%;
+  }
+  li#lowest {
+    margin-top: 14%;
+  }
+  div.contrast {
+    background-color: rgb(249,145,22);
+    color: rgb(0,0,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+  }
+  li {
+  margin: 0 20px;
+  transition: 0.6s ease;
+  }
+  li:hover {
+    font-size: 1.2em;
   }
